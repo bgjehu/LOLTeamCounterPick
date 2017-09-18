@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @2 Type=ChampionPB Member=(Name=.ctor OverloadingParameters=[(@1 @2 Type=Champion)]))" Category="CodeSchema_Method" Bounds="706.86,298.19,110.046666666667,25.24" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ChampionPB" FunctionTypeFlags="Constructor" Label="ChampionPB" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///d:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/Classes/ChampionPB.cs&quot; StartLineNumber=62 StartCharacterOffset=0 EndLineNumber=62 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@1 @2 Type=ChampionPB Member=.ctor)" Category="CodeSchema_Method" Bounds="565.86,298.19,110.046666666667,25.24" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ChampionPB" FunctionTypeFlags="Constructor" Label="ChampionPB" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///d:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/Classes/ChampionPB.cs&quot; StartLineNumber=54 StartCharacterOffset=0 EndLineNumber=54 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@1 @2 Type=ChampionPB Member=active)" Category="CodeSchema_Method" Bounds="847.171666666667,298.19,69.4233333333333,25.24" CodeSchemaProperty_IsPublic="True" CommonLabel="active" FunctionTypeFlags="Method" Label="active" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///d:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/Classes/ChampionPB.cs&quot; StartLineNumber=74 StartCharacterOffset=0 EndLineNumber=74 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@1 @2 Type=GVs Member=ResetLists)" Category="CodeSchema_Method" Bounds="361.681666666667,184.335,92.4033333333334,25.24" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="ResetLists" FunctionTypeFlags="Method" Label="ResetLists" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///d:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/Classes/GVs.cs&quot; StartLineNumber=18 StartCharacterOffset=0 EndLineNumber=18 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@1 @2 Type=SelectChampionPB Member=(Name=.ctor OverloadingParameters=[(@3 @4 Type=Int32)]))" Category="CodeSchema_Method" Bounds="3.74666666666673,241.2625,144.273333333333,25.24" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="SelectChampionPB" FunctionTypeFlags="Constructor" Label="SelectChampionPB" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///d:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/Classes/SelectChampionPB.cs&quot; StartLineNumber=72 StartCharacterOffset=0 EndLineNumber=72 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@1 @2 Type=SelectChampionPB Member=Report)" Category="CodeSchema_Method" Bounds="484.388333333333,184.335,74.99,25.24" CodeSchemaProperty_IsPublic="True" CommonLabel="Report" FunctionTypeFlags="Method" Label="Report" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///d:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/Classes/SelectChampionPB.cs&quot; StartLineNumber=84 StartCharacterOffset=0 EndLineNumber=84 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@1 @2 Type=SelectChampionPB Member=Reset)" Category="CodeSchema_Method" Bounds="590.145,184.335,67.4766666666667,25.24" CodeSchemaProperty_IsPublic="True" CommonLabel="Reset" FunctionTypeFlags="Method" Label="Reset" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///d:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/Classes/SelectChampionPB.cs&quot; StartLineNumber=105 StartCharacterOffset=0 EndLineNumber=105 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@1 @7 @8 Member=LocalDataComplete)" Category="CodeSchema_Method" Bounds="182.706666666667,184.335,148.353333333333,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="LocalDataComplete" FunctionTypeFlags="Method" Label="LocalDataComplete" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///d:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/MainForm.cs&quot; StartLineNumber=58 StartCharacterOffset=0 EndLineNumber=58 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@10" Category="CodeSchema_Method" Bounds="400.87,127.4075,132.026666666667,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="submitBTN_Click" FunctionTypeFlags="Method" Label="submitBTN_Click" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///d:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/MainForm.cs&quot; StartLineNumber=115 StartCharacterOffset=0 EndLineNumber=115 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@11" Category="CodeSchema_Method" Bounds="177.356666666667,127.4075,159.053333333333,25.24" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="LOLTeamCounterPick" FunctionTypeFlags="Constructor" Label="LOLTeamCounterPick" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///d:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/MainForm.cs&quot; StartLineNumber=41 StartCharacterOffset=0 EndLineNumber=41 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@12" Category="CodeSchema_Method" Bounds="0,184.335,151.766666666667,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="InitializeComponent" FunctionTypeFlags="Method" Label="InitializeComponent" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///d:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/MainForm.Designer.cs&quot; StartLineNumber=40 StartCharacterOffset=0 EndLineNumber=40 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@13" Category="CodeSchema_Method" Bounds="434.411666666667,56.9274999999998,64.9433333333334,25.24" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Main" FunctionTypeFlags="Method" Label="Main" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///d:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/Program.cs&quot; StartLineNumber=19 StartCharacterOffset=0 EndLineNumber=19 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="CurrentCallStackEntry" />
+    </Node>
+    <Node Id="@5" Category="CodeSchema_Method" Bounds="693.126666666667,241.2625,137.513333333333,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="LoadPictureBoxes" FunctionTypeFlags="Method" Label="LoadPictureBoxes" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///d:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/Classes/SelectionPanel.cs&quot; StartLineNumber=69 StartCharacterOffset=0 EndLineNumber=69 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@6" Category="CodeSchema_Method" Bounds="687.926666666667,184.335,147.913333333333,25.24" CodeSchemaProperty_IsPublic="True" CommonLabel="LoadSelectionPanel" FunctionTypeFlags="Method" Label="LoadSelectionPanel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///d:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/Classes/SelectionPanel.cs&quot; StartLineNumber=87 StartCharacterOffset=0 EndLineNumber=87 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@9" Category="CodeSchema_Method" Bounds="563.515,127.4075,120.736666666667,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="resetBTN_Click" FunctionTypeFlags="Method" Label="resetBTN_Click" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///d:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/MainForm.cs&quot; StartLineNumber=159 StartCharacterOffset=0 EndLineNumber=159 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="ExternalCodeRootNode" Category="ExternalCallStackEntry" Bounds="417.155,0,99.4566666666667,25.24" Label="External Code">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CurrentCallStackEntry" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="(@1 @2 Type=GVs Member=ResetLists)" Category="CallStackDirectCall" Bounds="427.439483642578,152.647506713867,26.3644104003906,25.4383087158203" />
+    <Link Source="@10" Target="(@1 @2 Type=SelectChampionPB Member=Report)" Category="CallStackDirectCall" Bounds="479.076049804688,152.647506713867,24.3611450195313,25.2149047851563" />
+    <Link Source="@11" Target="(@1 @7 @8 Member=LocalDataComplete)" Category="CallStackDirectCall" Bounds="256.883331298828,152.647506713867,0,22.6875" />
+    <Link Source="@11" Target="@12" Category="CallStackDirectCall" Bounds="124.593780517578,152.647506713867,92.1644744873047,28.9872436523438" />
+    <Link Source="@12" Target="(@1 @2 Type=SelectChampionPB Member=(Name=.ctor OverloadingParameters=[(@3 @4 Type=Int32)]))" Category="CallStackDirectCall" Bounds="75.8833312988281,209.574996948242,0,22.6875" />
+    <Link Source="@13" Target="@10" Category="CallStackIndirectCall" Bounds="466.883331298828,82.1675033569336,0,36.2399978637695" Label="External Code" LabelBounds="387.426666666667,97.1675,79.4566666666667,15.24" />
+    <Link Source="@13" Target="@11" Category="CallStackDirectCall" Bounds="301.183258056641,79.9195556640625,133.324188232422,44.4966506958008" />
+    <Link Source="@13" Target="@9" Category="CallStackIndirectCall" Bounds="494.995422363281,82.1675033569336,92.565185546875,41.5541076660156" Label="External Code" LabelBounds="545.383333333333,97.1675,79.4566666666667,15.24" />
+    <Link Source="@5" Target="(@1 @2 Type=ChampionPB Member=(Name=.ctor OverloadingParameters=[(@1 @2 Type=Champion)]))" Category="CallStackDirectCall" Bounds="761.883361816406,266.502502441406,0,22.6875" />
+    <Link Source="@5" Target="(@1 @2 Type=ChampionPB Member=.ctor)" Category="CallStackDirectCall" Bounds="660.486450195313,266.502502441406,70.1392211914063,28.3180847167969" />
+    <Link Source="@5" Target="(@1 @2 Type=ChampionPB Member=active)" Category="CallStackDirectCall" Bounds="788.485595703125,266.502502441406,58.6640625,27.8299865722656" />
+    <Link Source="@6" Target="@5" Category="CallStackDirectCall" Bounds="761.883361816406,209.574996948242,0,22.6875" />
+    <Link Source="@9" Target="(@1 @2 Type=SelectChampionPB Member=Reset)" Category="CallStackDirectCall" Bounds="623.883361816406,152.647506713867,0,22.6875" />
+    <Link Source="@9" Target="@6" Category="CallStackDirectCall" Bounds="654.475952148438,152.647506713867,68.494873046875,28.2553863525391" />
+    <Link Source="ExternalCodeRootNode" Target="@13" Category="CallStackIndirectCall" Bounds="466.883331298828,25.2399997711182,0,22.6875019073486">
+      <Category Ref="CurrentCallStackCall" />
+    </Link>
+  </Links>
+  <Categories>
+    <Category Id="BaseCustomContent" CanBeDataDriven="True" IsProviderRoot="False" />
+    <Category Id="CallStackDirectCall" Label="Call Stack direct call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack direct call" OutgoingActionLabel="Call Stack direct call" />
+    <Category Id="CallStackEntry" Label="Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Call Stack Entry" />
+    <Category Id="CallStackIndirectCall" Label="Call Stack indirect call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack indirect call" OutgoingActionLabel="Call Stack indirect call" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_SourceLocation" Label="Source Location" Icon="File" />
+    <Category Id="CurrentCallStackCall" Label="Current Call Stack call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Current Call Stack call" OutgoingActionLabel="Current Call Stack call" />
+    <Category Id="CurrentCallStackEntry" Label="Current Call Stack Entry" BasedOn="BaseCustomContent" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Current Call Stack Entry" />
+    <Category Id="ExternalCallStackEntry" Label="External Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="External Call Stack Entry" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="Is Constructor" Description="Flag to indicate the method is a constructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsStatic" Label="Is Static" Description="Flag to indicate the member is a static member" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="LabelBounds" DataType="System.Windows.Rect" />
+    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(f9f736f9-12a1-473e-a289-9eba4bb68858.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=LOLTeamCounterPick.Classes" />
+    <Alias n="3" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll" />
+    <Alias n="4" Id="Namespace=System" />
+    <Alias n="5" Id="(@1 @2 Type=SelectionPanel Member=(Name=LoadPictureBoxes OverloadingParameters=[(@1 @2 Type=ChampionList),(@3 @4 Type=Boolean)]))" />
+    <Alias n="6" Id="(@1 @2 Type=SelectionPanel Member=(Name=LoadSelectionPanel OverloadingParameters=[(@1 @2 Type=ChampionList),(@3 @4 Type=Boolean)]))" />
+    <Alias n="7" Id="Namespace=LOLTeamCounterPick" />
+    <Alias n="8" Id="Type=LOLTeamCounterPick" />
+    <Alias n="9" Id="(@1 @7 @8 Member=(Name=resetBTN_Click OverloadingParameters=[(@3 @4 Type=Object),(@3 @4 Type=EventArgs)]))" />
+    <Alias n="10" Id="(@1 @7 @8 Member=(Name=submitBTN_Click OverloadingParameters=[(@3 @4 Type=Object),(@3 @4 Type=EventArgs)]))" />
+    <Alias n="11" Id="(@1 @7 @8 Member=.ctor)" />
+    <Alias n="12" Id="(@1 @7 @8 Member=InitializeComponent)" />
+    <Alias n="13" Id="(@1 @7 Type=Program Member=Main)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Call Stack Node" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External Call Stack Entry" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Struct" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enumeration" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Delegate" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Event" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out Parameter" ValueLabel="Has category">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Local Variable" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="Has category">
+      <Condition Expression="HasCategory('InheritsFrom')" />
+      <Setter Property="Stroke" Value="#FF00A600" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#8000A600" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Calls" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Calls')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Function Pointer" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_FunctionPointer')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Reference" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_FieldReference')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Target.HasCategory('CodeSchema_Field') And HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="f9f736f9-12a1-473e-a289-9eba4bb68858.OutputPathUri" Value="file:///D:/Dropbox/Documents/COURSE/CS/CS3100/Project/LOLTeamCounterPick - Nov.21 copy/LOLTeamCounterPick/bin/Debug/LOLTeamCounterPick.exe" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>

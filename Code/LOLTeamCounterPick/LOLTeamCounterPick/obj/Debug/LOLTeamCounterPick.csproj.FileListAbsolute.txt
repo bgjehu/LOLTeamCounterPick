@@ -1,0 +1,73 @@
+Z:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.exe.config
+D:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.exe.config
+D:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.exe
+D:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.pdb
+D:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.csprojResolveAssemblyReference.cache
+D:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.LOLTeamCounterPick.resources
+D:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.csproj.GenerateResource.Cache
+D:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.exe
+D:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.pdb
+D:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.Properties.Resources.resources
+D:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.Properties.ChampionIcons.resources
+D:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.exe.manifest
+D:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.application
+D:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.exe.manifest
+D:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.application
+Z:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.exe
+Z:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.pdb
+Z:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.exe.manifest
+Z:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.application
+Z:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.exe
+Z:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.pdb
+Z:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.csprojResolveAssemblyReference.cache
+Z:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.Properties.ChampionIcons.resources
+Z:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.LOLTeamCounterPick.resources
+Z:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.Properties.Resources.resources
+Z:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.csproj.GenerateResource.Cache
+Z:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.exe.manifest
+Z:\Dropbox\Documents\COURSE\CS\CS3100\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.application
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.exe.config
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.exe
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.pdb
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.exe.manifest
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.application
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.exe
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.pdb
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.csprojResolveAssemblyReference.cache
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.Properties.ChampionIcons.resources
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.LOLTeamCounterPick.resources
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.Properties.Resources.resources
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.csproj.GenerateResource.Cache
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.exe.manifest
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.application
+Z:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.exe.config
+Z:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.exe
+Z:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.pdb
+Z:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.exe.manifest
+Z:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.application
+Z:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.exe
+Z:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.pdb
+Z:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.csprojResolveAssemblyReference.cache
+Z:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.Properties.ChampionIcons.resources
+Z:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.LOLTeamCounterPick.resources
+Z:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.Properties.Resources.resources
+Z:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.csproj.GenerateResource.Cache
+Z:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.exe.manifest
+Z:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.application
+Z:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.Components.ProgressFRM.resources
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick - Nov.21 copy\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.exe.config
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick - Nov.21 copy\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.exe
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick - Nov.21 copy\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.pdb
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick - Nov.21 copy\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.exe.manifest
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick - Nov.21 copy\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.application
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick - Nov.21 copy\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.exe
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick - Nov.21 copy\LOLTeamCounterPick\bin\Debug\LOLTeamCounterPick.pdb
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick - Nov.21 copy\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.csprojResolveAssemblyReference.cache
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick - Nov.21 copy\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.Components.ProgressFRM.resources
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick - Nov.21 copy\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.Properties.ChampionIcons.resources
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick - Nov.21 copy\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.LOLTeamCounterPick.resources
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick - Nov.21 copy\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.Properties.Resources.resources
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick - Nov.21 copy\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.csproj.GenerateResource.Cache
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick - Nov.21 copy\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.exe.manifest
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick - Nov.21 copy\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.application
+D:\Dropbox\Documents\COURSE\CS\CS3100\Project\LOLTeamCounterPick\LOLTeamCounterPick\obj\Debug\LOLTeamCounterPick.Components.ProgressFRM.resources

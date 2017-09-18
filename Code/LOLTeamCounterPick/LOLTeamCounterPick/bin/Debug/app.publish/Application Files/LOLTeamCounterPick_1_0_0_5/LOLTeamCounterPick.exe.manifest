@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LOLTeamCounterPick.exe" version="1.0.0.5" publicKeyToken="63f901141081fba7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LOLTeamCounterPick" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LOLTeamCounterPick.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LOLTeamCounterPick.exe" size="4876288">
+      <assemblyIdentity name="LOLTeamCounterPick" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>StS61z05w6KHy/wxVDjTx9pF0BOPqNfvCKq+EI60GZc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LOLTeamCounterPick.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BG-DESKTOP\User" issuerKeyHash="13fd802e4da9bd5b479c9bd07ab679f1988186ae" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>30s3ufZaieMYuuXkkrTV4NM2RQAXCxM9+FqnNHFvjYM=</DigestValue></Reference></SignedInfo><SignatureValue>Lmp25ZlT6FHu5cO7e49PtLL1mbRpITTrsXNUQM3kV7/C3Eu4OXB6Ph0/zIQzMemOjveuGreSHXOSNUhjG4ydwgIyk2NEh5MGtmfVzDuh5IUzbIKXJkY+JsDcd22LiUxR9Ck3oYDUJNQQJkc/KmUkJKZ21zH+txEarDoq3Bio3ec=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>543CT+ZsMeOOAiTPPBCM/RvGdz2bH4++BFwOnES96Ms/S/J+J97QvT5htix3VplJ+LCfgSyIL+VZryVHkeic+AJFSuPw8gs4psaus4IQPJMXeUG9aG5aLTbTVJaJMQ0ijesQsyp6nZpMgn/AqOo2Dv8ZnfPHLB3cWgiJWrMysLs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="838d6f7134a75af83d130b17004536d3e0d5b492e4e5ba18e3895af6b9374bdf" Description="" Url=""><as:assemblyIdentity name="LOLTeamCounterPick.exe" version="1.0.0.5" publicKeyToken="63f901141081fba7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BG-DESKTOP\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Kc5AiEPzPrlTjR7W2o7lm+Rxwo2vpJEblkeZd8NzDMs=</DigestValue></Reference></SignedInfo><SignatureValue>eXPwUeeuRqDDX/WjZs06JGH896+nin35+dSznXNXLIpISHzmncZ+kaRCr19i001F46pLG0/xXy0HMTCj8DmTqkKlhlWZt7AJNvv/FgK0mNTTqv2p2nUbuUVIbodBQEJrNSOs4OHnvgJ8CjrWZ1IZtvVSAcYc15guo6hDTmFGIUg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>543CT+ZsMeOOAiTPPBCM/RvGdz2bH4++BFwOnES96Ms/S/J+J97QvT5htix3VplJ+LCfgSyIL+VZryVHkeic+AJFSuPw8gs4psaus4IQPJMXeUG9aG5aLTbTVJaJMQ0ijesQsyp6nZpMgn/AqOo2Dv8ZnfPHLB3cWgiJWrMysLs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQa4F4uf3LVYFJi7w1aVHhYDANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AQgBHAC0ARABFAFMASwBUAE8AUABcAFUAcwBlAHIwHhcNMTQxMTAyMTkwMjQxWhcNMTUxMTAzMDEwMjQxWjApMScwJQYDVQQDHh4AQgBHAC0ARABFAFMASwBUAE8AUABcAFUAcwBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOeNwk/mbDHjjgIkzzwQjP0bxnc9mx+PvgRcDpxEvejLP0vyfife0L0+YbYsd1aZSfiwn4EsiC/lWa8lR5HonPgCRUrj8PILOKbGrrOCEDyTF3lBvWhuWi0201SWiTENIo3rELMqep2aTIJ/wKjqNg7/GZ3zxywd3FoIiVqzMrC7AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAYBThPfNTR/CJHzebIngcdW5nNCygMqKrqnccGkLpybM6PH8phh0I5lzJdf0+jU9mZJjAFo6TOkrVd2lB8EA93W+jq7FHhL5lnt+79JyhkY21RHSmZaX6UDyMwIdMF+sT8oCazepluQBJsUUKFX9mk5RSKj/NtXD+FpaoYTq7I9g=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9F736F9-12A1-473E-A289-9EBA4BB68858}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LOLTeamCounterPick</RootNamespace>
+    <AssemblyName>LOLTeamCounterPick</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Dropbox\Project\Application\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>49E2260B5101D1735487E7403BD19B59EC20E177</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>LOLTeamCounterPick_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\ChampionData.cs" />
+    <Compile Include="Classes\ChampionPB.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\GFs.cs" />
+    <Compile Include="Classes\GVs.cs" />
+    <Compile Include="Classes\LockBitmap.cs" />
+    <Compile Include="Classes\SelectChampionPB.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\SelectionPanel.cs" />
+    <Compile Include="Components\ProgressFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\ProgressFRM.Designer.cs">
+      <DependentUpon>ProgressFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MainForm.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\ChampionIcons.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChampionIcons.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Champion.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Components\ProgressFRM.resx">
+      <DependentUpon>ProgressFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\ChampionIcons.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ChampionIcons.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MainForm1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="LOLTeamCounterPick_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aatrox_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ahri_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Akali_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alistar_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amumu_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anivia_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Annie_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ashe_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Azir_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blitzcrank_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brand_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Braum_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Caitlyn_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cassiopeia_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chogath_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Corki_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Darius_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diana_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Draven_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DrMundo_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elise_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Evelynn_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ezreal_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fiddlesticks_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fiora_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fizz_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Galio_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gangplank_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Garen_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gnar_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gragas_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graves_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hecarim_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heimerdinger_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Irelia_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Janna_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JarvanIV_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jax_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jayce_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jinx_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karma_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karthus_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kassadin_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Katarina_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kayle_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kennen_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KhaZix_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KogMaw_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leblanc_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeeSin_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leona_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lissandra_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lucian_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lulu_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lux_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Malphite_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Malzahar_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maokai_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MasterYi_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MissFortune_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mordekaiser_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Morgana_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nami_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nasus_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nautilus_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nidalee_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nocturne_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nunu_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Olaf_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orianna_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pantheon_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poppy_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quinn_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rammus_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Renekton_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rengar_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Riven_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rumble_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ryze_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sejuani_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaco_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shen_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shyvana_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Singed_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sion_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sivir_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skarner_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sona_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Soraka_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Swain_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syndra_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Talon_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taric_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teemo_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thresh_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tristana_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trundle_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tryndamere_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwistedFate_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Twitch_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Udyr_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Urgot_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Varus_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vayne_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Veigar_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VelKoz_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vi_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Viktor_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vladimir_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Volibear_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warwick_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wukong_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xerath_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XinZhao_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yasuo_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yorick_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zac_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zed_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ziggs_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zilean_Square_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zyra_Square_0.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
